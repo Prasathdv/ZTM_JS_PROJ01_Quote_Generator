@@ -36,6 +36,7 @@ body{
 
 .fa-affiliatetheme{
     font-size: 2.75rem;
+    color:#e1eb34;
 }
 
 .quote-text-trn{
@@ -60,6 +61,32 @@ button{
     outline:none;
     color:#333;
     background:#fff;
+    border-radius:10px;
+    padding: 0.5rem 1.8rem;
+    box-shadow: 0 0.3rem rgba(143, 142, 142, 0.65);
+}
 
+button:hover{
+    filter: brightness(150%);
+}
 
+button:active{
+    transform: translate(0, 0.3rem);
+    box-shadow: 0 0.1rem rgba(255 , 255 , 255, 0.65);
+}
+
+.twitter-button:hover{
+    color:#38a1f3;
+}
+
+.next-kural:hover{
+    color: #dc143a;
+}
+
+.next-kural{
+    font-weight: 600;
+}
+
+.fa-twitter{
+    font-size: 1.5rem;
 }
